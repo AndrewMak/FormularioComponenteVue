@@ -1,0 +1,12 @@
+html, body {
+    font-family: sans-serif;
+  }
+  
+  .form-control {
+    padding: 8px 16px;
+  }
+  
+  .form-control label+.input {
+    display: block;
+  }
+  

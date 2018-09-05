@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      Formulário Dinâmico:
+      <v-form :schema="formSchema" :data="formData"></v-form>
+      
+      Json do bind:
+      <pre>{{ formData | json }}</pre>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
+  </body>
+
+</html>
